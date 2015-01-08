@@ -1,0 +1,22 @@
+{
+  "name": "ssb-domain-auth",
+  "version": "1.0.0",
+  "description": "retrieve rpc-auth tokens from scuttlebot for web domains",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ssbc/ssb-domain-auth"
+  },
+  "dependencies": {
+    "ssb-address": "~1.0.0"
+  },
+  "author": "Paul Frazee <pfrazee@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ssbc/ssb-domain-auth/issues"
+  },
+  "homepage": "https://github.com/ssbc/ssb-domain-auth"
+}

@@ -4,13 +4,16 @@
   "description": "retrieve rpc-auth tokens from scuttlebot for web domains",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tape test.js"
   },
+  "browser": "browser.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/ssbc/ssb-domain-auth"
   },
   "dependencies": {
+    "concat-stream": "^1.4.7",
+    "hyperquest": "^1.0.1",
     "ssb-address": "~1.0.0"
   },
   "author": "Paul Frazee <pfrazee@gmail.com>",
@@ -18,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/ssbc/ssb-domain-auth/issues"
   },
-  "homepage": "https://github.com/ssbc/ssb-domain-auth"
+  "homepage": "https://github.com/ssbc/ssb-domain-auth",
+  "devDependencies": {
+    "tape": "^3.5.0"
+  }
 }

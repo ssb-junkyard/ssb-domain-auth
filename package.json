@@ -1,6 +1,6 @@
 {
   "name": "ssb-domain-auth",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "retrieve rpc-auth tokens from scuttlebot for web domains",
   "main": "index.js",
   "scripts": {

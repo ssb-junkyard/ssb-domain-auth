@@ -23,8 +23,8 @@
   },
   "homepage": "https://github.com/ssbc/ssb-domain-auth",
   "devDependencies": {
+    "match-through": "^1.0.1",
     "scuttlebot": "^2.3.3",
-    "through2": "^0.6.3",
     "tape": "^3.5.0"
   }
 }
